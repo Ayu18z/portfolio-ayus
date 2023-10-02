@@ -1,0 +1,31 @@
+
+nav{
+    margin-top: 45px;
+    font-size: 17px;
+    max-height: 50px; 
+    overflow-y: auto;
+    height: 50px;
+    background-color: var(--third-color);
+     
+}
+.nav-link{
+    text-transform: uppercase;
+    color: rgb(70, 3, 3);
+    
+}
+ul{
+    list-style: lower-alpha;
+    padding: 10px;
+    margin: 5px;
+}
+
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
