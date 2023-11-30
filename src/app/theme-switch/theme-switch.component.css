@@ -1,0 +1,50 @@
+/* theme-switch.component.css */
+.theme-switch {
+    display: flex;
+    align-items: center;
+  }
+  
+  .theme-switch label {
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  .theme-switch input[type="checkbox"] {
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .theme-switch input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: var(--fonts-color);
+    border-radius: 50%;
+    transform: translateX(0);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  /* Style for checked (dark mode) state */
+  .theme-switch input[type="checkbox"]:checked {
+    background-color: var(--fonts-color);
+  }
+  
+  .theme-switch input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+    background-color: var(--fonts-color);
+  }
+  
+  .theme-switch input[type="checkbox"][aria-hidden="true"] {
+    position: center;
+    left: -9999px;
+  }
+  
+  .theme-switch input[type="checkbox"] + label {
+    cursor: pointer;
+  }

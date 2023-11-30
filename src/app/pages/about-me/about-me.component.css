@@ -1,0 +1,24 @@
+.glass{
+    margin: 50px;
+}
+h1{
+    font-style: bold;
+    font-size: 100px;
+    color: var(--btext-color);
+}
+P{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: var(--fonts-color)
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+}

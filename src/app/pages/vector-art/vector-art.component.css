@@ -1,0 +1,45 @@
+
+nav{
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: 17px;
+    max-height: 50px; 
+    height: 80px;
+    width: 50%; 
+    border-radius: 10px;
+    background-color: var(--third-color);
+
+     
+}
+.nav-link{
+    text-transform: uppercase;
+    color: rgb(70, 3, 3);
+    
+}
+ul{
+    
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .container{
+    font-size: large;
+  }
+  .card-body{
+    background-color: var(--primary-color);
+  }
+  .glass{
+    margin-left :60px;
+    margin-right :60px;
+
+  }

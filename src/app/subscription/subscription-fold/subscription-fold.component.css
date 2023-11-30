@@ -1,20 +1,25 @@
 form{
     font-size:  x-small;
     color: var(--btext-color);
-    margin-top: 40px;
+    margin-top: 5vh;
+   
 }
 .card{
-    margin : 100px;
+    
+    margin : 10px;
     background-color: var(--button-color);
     font-size: small;;
     border-radius: 10px;
+    
 }
 p , h3{
     color: var(--fonts-color);
 }
 
-input[text]{
-    height: 60px;
-    padding: 50px;
-    border-radius: 15px;
+
+.btn-sub{
+    margin-top: 10px;
+    height: 50px;
+    font-size: 15px;
+    width: 200px;
 }

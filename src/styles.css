@@ -1,17 +1,23 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 
-body{
-  background-image: url("assets/img/pexels-achraf-alan-1477156.jpg") ;
+body.dark-theme {
+  background-image: url("assets/img/kb.jpg") ;
+  background-size: 180%;
+
+}
+body {
+  background-image: url("assets/img/wallpaperflare.com_wallpaper.jpg") ;
   background-size: cover;
+
 }
 :root{
-  --fonts-color :#77D9BD;
-  --third-color :#8C7E72;
-  --body-color :#0D0D0D;
-  --btext-color :#3973BF;
+  --fonts-color :#BF4B4B;
+  --third-color :#D9B777;
+  --body-color :#00030D;
+  --btext-color :#D95276;
   --warning-color: orange;
-  --button-color:#023059;
+  --button-color:#400101;
 }
 .site-logo{
   padding: 6px 20px;
@@ -24,7 +30,7 @@ p{
   color: var(--primary);
 }
 body{
-  font-family: 'Martian Mono', monospace;
+  font-family: "Audiowide", serif;
   font-size: 40px;
   color: var(--body-text-color);
 }
@@ -32,3 +38,35 @@ body{
   min-height: 85vh;
   margin-top: 50px;
 }
+input[type = text], input[type = email]{
+  font-size: large;
+  
+  height: 30px;
+  padding: 20px;
+  border-radius: 11px;
+  width: 80%;
+}
+.shadow-effect{ 
+  border: none;
+  box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+  }
+  .bg-theme{
+    background-color: var(--primary-color);
+    }
+    .bg-secondary-theme{
+    background-color: var(--secondary-color);
+    }
+    .text-theme-primary{
+    color: var( --primary-color);
+    }
+    .glass {
+      background: linear-gradient(135deg, rgba(76, 26, 175, 0.1), rgba(81, 19, 19, 0));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(2px); 
+      border-radius: 20px;
+      border: 1px solid rgba(62, 24, 189, 0.18);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      align-items: center;
+     margin-left: 30px;
+     margin-right: 30px;
+  }

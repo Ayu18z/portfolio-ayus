@@ -20,6 +20,7 @@ import { CommentFolderComponent } from './comments/comment-folder/comment-folder
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { SubscriptionFoldComponent } from './subscription/subscription-fold/subscription-fold.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
+import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
     CommentFolderComponent,
     CommentListComponent,
     SubscriptionFoldComponent,
-    PostCardComponent
+    PostCardComponent,
+    ThemeSwitchComponent
   ],
   imports: [
     BrowserModule,

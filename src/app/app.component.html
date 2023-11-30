@@ -1,10 +1,17 @@
 
+
 <app-header></app-header>
 <app-catg-navbar></app-catg-navbar>
+     <app-theme-switch></app-theme-switch>
 <div class="app-body">
-    <app-post-card>
-    </app-post-card>
+  
+    <router-outlet></router-outlet>
     
 </div>
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <app-subscription-fold></app-subscription-fold>    </div>
+    </div>
+
+
 <app-footer></app-footer>
-<app-subscription-fold></app-subscription-fold>
