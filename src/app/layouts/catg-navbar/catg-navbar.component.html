@@ -1,14 +1,79 @@
-<nav class = "navbar navbar-expand-lg ">
-    <div class = "container">
-        <div class="collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav">
-                <li class="navbar-item "><a href="Home" class="nav-link">home  </a></li>
-                <li class="navbar-item "><a href="Vector Art Designs" class="nav-link">Vector-Arts  </a></li>
-                <li class="navbar-item "><a href="Programming" class="nav-link">Programming  </a></li>
-                <li class="navbar-item "><a href="Blog" class="nav-link">Blog </a></li>
-                <li class="navbar-item "><a href="About Me" class="nav-link">About-Me  </a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    nav {
+      margin-top: 45px;
+      font-size: 17px;
+      max-height: 50px; 
+      height: 50px;
+      
+      background-color: var(--third-color);
+    }
 
-            </ul>
-        </div>
+    .nav-link {
+      text-transform: uppercase;
+      color: rgb(70, 3, 3);
+    }
+
+    ul {
+      list-style: none;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%2870, 3, 3, 1%29" stroke-width="2" linecap="round" linejoin="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar item">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="Home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Vector Art Designs" class="nav-link">Vector Arts</a>
+          </li>
+          <li class="nav-item">
+            <a href="Programming" class="nav-link">Programming</a>
+          </li>
+          <li class="nav-item">
+            <a href="Blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="About Me" class="nav-link">About Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

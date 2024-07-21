@@ -21,6 +21,91 @@ section{
       align-items: center;
 
       margin-top: 100px;
-     margin-left: 80px;
-     margin-right: 80px;
+     margin-left: 20px;
+     margin-right: 20px;
 }
+.about-section {
+    padding: 50px 0;
+    background-color: #f4f4f495;
+}
+
+.profile-image {
+    position: relative;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(63, 14, 14, 0.412);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4,
+.col-md-8 {
+    padding: 15px;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.col-md-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+

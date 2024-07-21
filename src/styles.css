@@ -8,7 +8,7 @@ body.dark-theme {
 }
 body {
   background-image: url("assets/img/wallpaperflare.com_wallpaper.jpg") ;
-  background-size: cover;
+  background-size: 180%;
 
 }
 :root{

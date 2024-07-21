@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { SubscriptionFoldComponent } from './subscription-fold.component';
 
 describe('SubscriptionFoldComponent', () => {
@@ -19,5 +18,11 @@ describe('SubscriptionFoldComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should alert "Thank you for your response" on form submit', () => {
+    spyOn(window, 'alert');
+    component.onSubmit();
+    expect(window.alert).toHaveBeenCalledWith('Thank you for your response');
   });
 });

@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./subscription-fold.component.css']
 })
 export class SubscriptionFoldComponent {
-  constructor(){ }
-  ngOnInit(): void{
+  constructor() {}
 
+  onSubmit() {
+    alert('Thank you for your response');
   }
 }
