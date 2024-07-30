@@ -6,6 +6,7 @@ nav {
   background-color: var(--third-color);
 }
 
+
 .nav-link {
   text-transform: uppercase;
   color: rgb(70, 3, 3);
@@ -23,7 +24,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration:line-through;
 }
 
 .navbar-toggler {

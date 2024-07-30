@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./post-card.component.css']
 })
 export class PostCardComponent {
-  viewCount: number = 0;
+  
+  viewCount: number = 81;
   incrementViewCount() {
     this.viewCount++;
 }
