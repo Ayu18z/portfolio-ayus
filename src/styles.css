@@ -1,72 +1,93 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+  --primary-color: #D95276;
+  --secondary-color: #400101;
+  --fonts-color: #BF4B4B;
+  --third-color: #D9B777;
+  --body-color: #00030D;
+  --btext-color: #D95276;
+  --warning-color: orange;
+  --button-color: #400101;
+}
+
+body {
+  font-family: 'Audiowide', serif, sans-serif;
+  background-image: url("assets/img/wallpaperflare.com_wallpaper.jpg");
+  background-size: 180%;
+}
 
 body.dark-theme {
-  background-image: url("assets/img/kb.jpg") ;
-  background-size: 180%;
+  background-image: url("assets/img/kb.jpg");
+}
 
-}
-body {
-  background-image: url("assets/img/wallpaperflare.com_wallpaper.jpg") ;
-  background-size: 180%;
-
-}
-:root{
-  --fonts-color :#BF4B4B;
-  --third-color :#D9B777;
-  --body-color :#00030D;
-  --btext-color :#D95276;
-  --warning-color: orange;
-  --button-color:#400101;
-}
-.site-logo{
-  padding: 6px 20px;
+.site-logo {
+  padding: 10px 30px;
   border-radius: 15px;
-  background-color: var(--button-color);
-  color: var(--fonts-color);
+  background: linear-gradient(135deg, #400101, #D9B777, #400101);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid #333333;
+  text-align: center;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
+}
 
+.site-logo:hover {
+  background: linear-gradient(135deg, #D9B777, #400101, #D9B777);
+  color: #000000;
 }
-p{
-  color: var(--primary);
+
+.main-content {
+  font-family: 'Audiowide', serif, sans-serif;
 }
-body{
-  font-family: "Audiowide", serif;
-  font-size: 40px;
-  color: var(--body-text-color);
+
+p {
+  color: var(--primary-color);
 }
-.app-body{
+
+.app-body {
   min-height: 85vh;
   margin-top: 50px;
 }
-input[type = text], input[type = email]{
+
+input[type="text"], input[type="email"] {
   font-size: large;
-  
   height: 30px;
   padding: 20px;
   border-radius: 11px;
   width: 80%;
 }
-.shadow-effect{ 
+
+.shadow-effect {
   border: none;
   box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
-  }
-  .bg-theme{
-    background-color: var(--primary-color);
-    }
-    .bg-secondary-theme{
-    background-color: var(--secondary-color);
-    }
-    .text-theme-primary{
-    color: var( --primary-color);
-    }
-    .glass {
-      background: linear-gradient(135deg, rgba(76, 26, 175, 0.1), rgba(81, 19, 19, 0));
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(2px); 
-      border-radius: 20px;
-      border: 1px solid rgba(62, 24, 189, 0.18);
-      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-      align-items: center;
-     margin-left: 30px;
-     margin-right: 30px;
-  }
+}
+
+.bg-theme {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary-theme {
+  background-color: var(--secondary-color);
+}
+
+.text-theme-primary {
+  color: var(--primary-color);
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(76, 26, 175, 0.1), rgba(81, 19, 19, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 20px;
+  border: 1px solid rgba(62, 24, 189, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}

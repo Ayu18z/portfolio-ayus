@@ -21,6 +21,7 @@ import { CommentListComponent } from './comments/comment-list/comment-list.compo
 import { SubscriptionFoldComponent } from './subscription/subscription-fold/subscription-fold.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
 import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
+import { WebelementComponent } from './webelement/webelement.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
     CommentListComponent,
     SubscriptionFoldComponent,
     PostCardComponent,
-    ThemeSwitchComponent
+    ThemeSwitchComponent,
+    WebelementComponent
   ],
   imports: [
     BrowserModule,

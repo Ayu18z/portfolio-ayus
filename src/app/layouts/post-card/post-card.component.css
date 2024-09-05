@@ -14,14 +14,15 @@ img {
   background-color: aliceblue;
   max-width: 100%;
   height: auto;
-  object-fit: cover;
+  aspect-ratio: 4/4;
+  object-fit: contain;
   transform: scale(1);
   transition: transform 0.09s ease;
 }
 
 img:hover {
   transform: scale(1.2);
-}
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
 
 p {
   font-size: 5px;
