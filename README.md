@@ -3,6 +3,9 @@
 **AngPotApp** is a personal **portfolio web application** built with **Angular 15**, where I showcase my **vector artworks**, creative designs, and professional journey.  
 This portfolio represents a collection of digital illustrations I have **created and sold** over time, along with my experience in web development.
 
+## Watch full live site here
+https://ayus-portfolio.netlify.app/
+
 ---
 
 ## 🖼️ What This Repository Contains
